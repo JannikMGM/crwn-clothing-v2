@@ -42,6 +42,7 @@ const Navigation = () => {
                                 <NavLink as='span' 
                                     className="nav-link"
                                     onClick={signOutUser}
+                                    to=''
                                 >
                                     SIGN OUT
                                 </NavLink>)
